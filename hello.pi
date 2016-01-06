@@ -1,0 +1,9 @@
+main => 
+	printf("hello picat%n").
+
+main(Args) => 
+	printf("hello picat"),
+foreach(Arg in Args)
+printf(" %s",Arg)
+end,
+nl.

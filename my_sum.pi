@@ -1,0 +1,6 @@
+module my_sum.
+my_sum(L)=Sum => sum_aux(L,0,Sum).
+
+private
+sum_aux([],Sum0,Sum) => Sum=Sum0.
+sum_aux([X|L],Sum0,Sum) => sum_aux(L,X+Sum0,Sum)

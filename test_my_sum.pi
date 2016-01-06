@@ -1,0 +1,3 @@
+module test_my_sum.
+import my_sum.
+go => writeln(my_sum([1,2,3,4])).
